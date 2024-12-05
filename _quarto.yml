@@ -8,7 +8,7 @@ book:
     - name: "Carole Doucerain"
     - name: "Léo Streith"
     - name: "Alycia Frochot"
-    - name: "Etienne Henri"
+    - name: "Etienne Henry"
       
   date: today
   description:  |
@@ -27,6 +27,10 @@ book:
   
   chapters:
     - index.qmd
+    - foot.qmd
+    - basket.qmd
+    - volley.qmd
+    - cirque.qmd
     
 format:
   html:
