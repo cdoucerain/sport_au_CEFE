@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "Sports au CEFE !"
+  
+  author: 
+    - name: "Carole Doucerain"
+    - name: "Léo Streith"
+    - name: "Alycia Frochot"
+    - name: "Etienne Henri"
+      
+  date: today
+  description:  |
+    TO WRITE
+  
+  sidebar: 
+    style: "docked"
+    collapse-level: 1
+
+  page-footer: 
+    center: "Code source available on [{{< fa brands github >}}](https://github.com/cdoucerain/sport_au_cefe.git)"
+    border: true
+  
+  reader-mode: false
+  search: false
+  
+  chapters:
+    - index.qmd
+    
+format:
+  html:
+    theme: [cosmo, css/styles.scss]
+    code-copy: true
+    code-line-numbers: false
